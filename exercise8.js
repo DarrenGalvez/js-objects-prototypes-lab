@@ -46,10 +46,10 @@ library.addBook("Five Nights at Freddy's: The Silver Eyes", 'Scott Cawthon', '97
 library.addBook('Ready Player One', 'Ernest Cline', '978-1593279509');
 library.addBook('Diary of a Wimpy Kid', 'Jeff Kenny', '978-1491904244');
 
-// Test listing all books
+// Testing listing all books
 library.listAllBooks();
 
-// Test finding a book by title
+// Testing finding a book by title
 console.log(library.findBookByTitle('Ready Player One')); 
 // Expected: { title: 'Ready Player One', 'Ernest Cline', '978-1593279509' }
 
