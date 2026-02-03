@@ -1,10 +1,10 @@
 // Array of numbers
 const numbers = [2, 4, 5, 8, 10];
 
-// Square each number using map
+// Each number is squared using map
 const squared = numbers.map(num => num * num);
 
-// Get only even numbers using filter
+// Filters out only even numbers
 const evens = numbers.filter(num => num % 2 === 0);
 
 // Sum all numbers using reduce
